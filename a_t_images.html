@@ -1,0 +1,115 @@
+<!Doctype HTML>
+<html>
+
+<head>
+    <title>
+        Hiking Photos
+    </title>
+    <!--More practice with HTML and using internal CSS-->
+    <!--trying wrapper for the first time. -->
+
+    <style type="text/css">
+        body {
+            color: #665544;
+            background-color: #ffe8cc;
+            background-image: url("images\mountain_background_clouds.gif");
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+        .wrapper {
+            width: 720 px;
+            margin: 0px auto;
+        }
+
+        /* working with .entry and figure for the first time, liberal use of ideas from Duckett's HTML an CSS book*/
+        .entry {
+            width: 220px;
+            float: left;
+            margin: 10px;
+            height: 198px;
+            background-image: url("images\shadow_background.png");
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        figure {
+            display: block;
+            width: 202px;
+            height: 170px;
+            background-color: #e7e3d8;
+            margin: 0;
+            padding: 9px;
+            text-align: center;
+        }
+
+        figure img {
+            width: 200px;
+            height: 150px;
+            border: 1px solid #d6d6d6;
+        }
+
+        figcaption {color:chocolate;
+        }
+
+
+        .header {
+            margin: 40px 0px 20px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header style="background-color:#ffddb3; font-family:Arial, Helvetica, sans-serif; height: 60px; text-align:left">
+        <br>
+        <nav style="margin-left:40px">
+            <a href="index.html">Home</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="teaching.html">Teaching</a>
+            &nbsp;&nbsp; | &nbsp;&nbsp;<a href="hiking.html">Hiking</a>
+            &nbsp;&nbsp; | &nbsp;&nbsp;<a href="gaming.html">Gaming</a>
+            &nbsp;&nbsp; | &nbsp;&nbsp;<a href="eco.html">Eco-Lifestyle</a>
+            &nbsp;&nbsp; | &nbsp;&nbsp;<a href="blogpost.html">Blog</a></nav>
+    </header>
+    <div class="wrapper">
+        <br>
+        <img src="images\blood_mountain_photo.gif" alt="Blood Mountain Panorama" width="456" height="122" />
+        <p
+            style="margin-left: 15%; margin-right: 15%; text-align:justify; font-family:'Courier New', Courier, monospace; font-size:small; color: chocolate;">
+            Have you ever dreamt about doing something totally foolish, something so absurd that perhaps you were afraid
+            to tell anyone
+            except possibly those closest to you? I harbored such a secret for most of my adult life — I secretly wanted
+            to hike the Appalachian Trail [A.T.] from Georgia to Maine. <nav
+                style="margin-right: 13%; margin-left: 20%; "><cite><small>Dennis R. Blanchard, Three Hundred Zeroes:
+                        Lessons of the Heart
+                        on the Appalachian Trail</small> </cite></nav>
+        </p>
+    </div>
+    <div class="entry">
+        <figure><img src="images\Trail_approach_ AT_ 2019.jpg" alt="Approach Trail" />
+            <figcaption>Approach Trail</figcaption>
+        </figure>        
+    </div>
+    <div class="entry">
+        <figure><img src="images\Water_Fall_ AT_ 2019 (2).jpg" alt="Waterfall " />
+            <figcaption>Amicolola Falls</figcaption>
+        </figure>        
+    </div>
+    <div class="entry">
+        <figure><img src="images\Southern_Terminus_ AT_ 2019.jpg" alt="Southern Terminus" />
+            <figcaption>The Beginning</figcaption>
+        </figure>        
+    </div>
+    <div class="entry">
+        <figure><img src="" alt="Approach Trail" />
+            <figcaption>Approach Trail</figcaption>
+        </figure>        
+    </div>
+    <div class="entry">
+        <figure><img src="images\Trail_approach_ AT_ 2019.jpg" alt="Approach Trail" />
+            <figcaption>Approach Trail</figcaption>
+        </figure>        
+    </div>
+    
+</body>
+
+</html>
